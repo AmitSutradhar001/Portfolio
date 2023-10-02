@@ -1,0 +1,159 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #1b90d352;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-image: url("./public/images/background.png");
+}
+.svg {
+  padding: 7px;
+}
+#about h2 {
+  color: black;
+}
+.amit-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #03001c;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav li {
+  margin-right: 20px;
+}
+h3 {
+  color: #4e7403;
+}
+nav a {
+  text-decoration: none;
+  color: #8cc2e3;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #66b3e0;
+}
+
+.hero {
+  background-image: url("your-background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.about {
+  background-color: #b5cada;
+  padding: 40px 0;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.portfolio {
+  padding: 40px 0;
+}
+
+.project {
+  background-color: #c5d6dc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+h2 {
+  color: #ee10be;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+a {
+  color: #ee10be;
+  font-weight: bolder;
+}
+h4 {
+  color: #044d61;
+}
+
+footer {
+  text-align: center;
+  background-color: #182738;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+.svg {
+  height: 50px;
+  width: 50px;
+}
+span {
+  color: #1241ce;
+  font-weight: bolder;
+}
+.line {
+  text-decoration: line-through;
+}
